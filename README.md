@@ -7,6 +7,8 @@ pip install raspberry_pi_monitor
 
 ## Usage
 import pi_monitor
+
+
 pi_monitor.start()
 
 Note: This package displays CPU, RAM and Temperature 
