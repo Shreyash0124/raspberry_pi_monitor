@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: raspberry_pi_monitor
+Version: 1.0.0
+Summary: A simple Raspberry Pi performance monitor
+Home-page: https://github.com/Shreyash0124/pi_monitor
+Author: Shreyash Narayan S
+Author-email: sshreyashnarayan@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: psutil
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# pi_monitor
+
+A simple Raspberry Pi performance monitor.
+
+## Installation
+pip install pi_monitor
+
+## Usage
+import pi_monitor
+pi_monitor.start()
