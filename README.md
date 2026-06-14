@@ -2,7 +2,7 @@
 A simple Raspberry Pi performance monitor. Very helpful for constant monitoring when testing something
 
 ## Installation
-=======
+==============================
 A Python package for real-time Raspberry Pi performance monitoring (CPU, RAM, Temperature).
 
 ## Installation
@@ -11,18 +11,14 @@ A Python package for real-time Raspberry Pi performance monitoring (CPU, RAM, Te
 pip install raspberry_pi_monitor --break-system-packages
 
 ### On other systems
->>>>>>> e0fd3ea (updated README with full troubleshooting guide)
 pip install raspberry_pi_monitor
 
 ## Usage
 import pi_monitor
-<<<<<<< HEAD
-
-
 pi_monitor.start()
 
 Note: This package displays CPU, RAM and Temperature 
-=======
+==============================
 pi_monitor.start()
 
 ## Output
